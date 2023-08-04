@@ -1,0 +1,63 @@
+footer {
+    background-image: url("../Assets/wave.jpg");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    color: Black;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 2rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer > div > h1 {
+    font: 700 2rem ghostwhite;
+    text-transform: uppercase;
+    color: ghostwhite;
+    letter-spacing: 1px;
+
+}
+
+footer > div > p {
+    font: 500 1.2rem ghostwhite;
+    color: ghostwhite;
+}
+
+footer > div > h5 {
+    font: 300 2rem ghostwhite;
+    margin: 1rem 0;
+    text-align: center;
+    color: ghostwhite;
+}
+
+footer > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > div > div > a {
+    color: ghostwhite;
+    font: 300 1rem cursive
+}
+
+footer > div > div > a:hover {
+    color: rebeccapurple;
+}
+
+@media  screen and (max-width: 500px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    footer > div {
+        margin: auto;
+    }
+}
